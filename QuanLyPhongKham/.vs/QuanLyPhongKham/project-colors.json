@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "add6f4fa-c28a-4871-9693-720aa924d3b8": {
+      "ProjectGuid": "add6f4fa-c28a-4871-9693-720aa924d3b8",
+      "DisplayName": "QuanLyPhongKham",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f4ef856b-7d55-4ecb-a262-81d0c29d75cb": {
+      "ProjectGuid": "f4ef856b-7d55-4ecb-a262-81d0c29d75cb",
+      "DisplayName": "Quản lý PK răng",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

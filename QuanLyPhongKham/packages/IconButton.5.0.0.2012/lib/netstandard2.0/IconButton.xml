@@ -1,0 +1,505 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IconButton</name>
+    </assembly>
+    <members>
+        <member name="T:LaavorIconButton.IconButton">
+            <summary>
+            Class IconButton
+            </summary>
+        </member>
+        <member name="E:LaavorIconButton.IconButton.Clicked">
+            <summary>
+            Event call when Icon is Clicked
+            </summary>
+        </member>
+        <member name="E:LaavorIconButton.IconButton.Touched">
+            <summary>
+            Event call when Icon is Touched
+            </summary>
+        </member>
+        <member name="M:LaavorIconButton.IconButton.#ctor">
+            <summary>
+            Constructor of IconButton
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.Vivacity">
+            <summary>
+            Set Vivacity
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.VivacitySpeed">
+            <summary>
+            VivacitySpeed changes animation speed when selecting an item. 
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.Depth">
+            <summary>
+            Set Vivacity
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconButton.IsReadOnlyProperty">
+            <summary>
+            Property to report if IconButton is readonly.
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.IsReadOnly">
+            <summary>
+            Property to report if IconButton is readonly.
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconButton.UseTouchEffectProperty">
+            <summary>
+            Property to report if IconButton is readonly.
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.UseTouchEffect">
+            <summary>
+            Property to report if IconButton is readonly.
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconButton.UseClickEffectProperty">
+            <summary>
+            Property to report if IconButton is readonly.
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.UseClickEffect">
+            <summary>
+            Property to report if IconButton is readonly.
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.ColorUI">
+            <summary>
+            Set if is ColorUI
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.IconType">
+            <summary>
+            Set if is IconType
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconButton.HeightProperty">
+            <summary>
+            Enter the height.
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.Height">
+            <summary>
+            Enter the height.
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconButton.HeightRequestProperty">
+            <summary>
+            Depracate.
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.HeightRequest">
+            <summary>
+            Deprecate.
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconButton.WidthProperty">
+            <summary>
+            Enter the width.
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.Width">
+            <summary>
+            Enter the width.
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconButton.WidthRequestProperty">
+            <summary>
+            Depracate.
+            </summary>
+        </member>
+        <member name="P:LaavorIconButton.IconButton.WidthRequest">
+            <summary>
+            Deprecate.
+            </summary>
+        </member>
+        <member name="T:LaavorIconButton.IconButtonImage">
+            <summary>
+            Class IconButtonImage
+            </summary>
+        </member>
+        <member name="M:LaavorIconButton.IconButtonImage.#ctor(System.String,LaavorIconButton.IconType,LaavorIconButton.ColorUI)">
+            <summary>
+            Constructor of IconButtonImage
+            </summary>
+            <param name="hash"></param>
+            <param name="iconType"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:LaavorIconButton.IconButtonImage.ChangeColor(System.String,LaavorIconButton.ColorUI)">
+            <summary>
+            Change ColorUI of IconButton
+            </summary>
+            <param name="hash"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:LaavorIconButton.IconButtonImage.ChangeIconType(System.String,LaavorIconButton.IconType)">
+            <summary>
+            Change ColorUI of IconButton
+            </summary>
+            <param name="hash"></param>
+            <param name="iconType"></param>
+        </member>
+        <member name="T:LaavorIconButton.ColorUI">
+            <summary>
+            Colors UI Laavor
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Black">
+            <summary>
+            Black Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Blue">
+            <summary>
+            Blue Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Gray">
+            <summary>
+            Gray Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Green">
+            <summary>
+            Green Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Red">
+            <summary>
+            Red Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Yellow">
+            <summary>
+            Yellow Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Orange">
+            <summary>
+            Orange Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Pink">
+            <summary>
+            Pink Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.White">
+            <summary>
+            White Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.BlueLight">
+            <summary>
+            BlueLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.YellowLight">
+            <summary>
+            YellowLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.GreenLight">
+            <summary>
+            GreenLight Color
+            </summary>,
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Brown">
+            <summary>
+            Brown Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Purple">
+            <summary>
+            Purple Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Turquoise">
+            <summary>
+            Turquoise Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.PinkLight">
+            <summary>
+            PinkLight Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.BlueSky">
+            <summary>
+            BlueSky Color
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.GrayLight">
+            <summary>
+            GrayLight
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.RedLight">
+            <summary>
+            RedLight
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.OrangeLight">
+            <summary>
+            OrangeLight
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.YellowDark">
+            <summary>
+            YellowDark
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.GreenDark">
+            <summary>
+            GreenDark
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.BlueDark">
+            <summary>
+            BlueDark
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Aqua">
+            <summary>
+            Aqua
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.Tan">
+            <summary>
+            Tan
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.GreenDarkness">
+            <summary>
+            GreenDarkness
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.ColorUI.BlueViolet">
+            <summary>
+            BlueViolet
+            </summary>
+        </member>
+        <member name="T:LaavorIconButton.IconType">
+            <summary>
+            Icon Type
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Cut">
+            <summary>
+            Cut
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Like">
+            <summary>
+            Like
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Mail">
+            <summary>
+            Mail
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Question">
+            <summary>
+            Question
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Share">
+            <summary>
+            Share
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Copy">
+            <summary>
+            Copy
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Edit">
+            <summary>
+            Edit
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Paste">
+            <summary>
+            Paste
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Pencil">
+            <summary>
+            Pencil
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Plus">
+            <summary>
+            Plus
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Subtraction">
+            <summary>
+            Subtraction
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Sphere">
+            <summary>
+            Sphere
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Star">
+            <summary>
+            Star
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Eye">
+            <summary>
+            Eye
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Box">
+            <summary>
+            Box
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.SearchLeft">
+            <summary>
+            SearchLeft
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Heart">
+            <summary>
+            Heart
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Flag">
+            <summary>
+            Flag
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.ArrowLeft">
+            <summary>
+            ArrowLeft
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.ArrowRight">
+            <summary>
+            ArrowRight
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.ArrowDown">
+            <summary>
+            ArrowDown
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.ArrowUp">
+            <summary>
+            ArrowUp
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Keyboard">
+            <summary>
+            Keyboard
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.IconType.Person">
+            <summary>
+            Person
+            </summary>
+        </member>
+        <member name="T:LaavorIconButton.Vivacity">
+            <summary>
+            Vivacity
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.Vivacity.Increase">
+            <summary>
+            Increase
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.Vivacity.Decrease">
+            <summary>
+            Decrease
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.Vivacity.Jump">
+            <summary>
+            Jump
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.Vivacity.Rotation">
+            <summary>
+            Rotation
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.Vivacity.Down">
+            <summary>
+            Down
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.Vivacity.Left">
+            <summary>
+            Left
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.Vivacity.Right">
+            <summary>
+            Right
+            </summary>
+        </member>
+        <member name="T:LaavorIconButton.Depth">
+            <summary>
+            Depth
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.Depth.Small">
+            <summary>
+            Small
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.Depth.LessMedium">
+            <summary>
+            LessMedium
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.Depth.Medium">
+            <summary>
+            Medium
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.Depth.Large">
+            <summary>
+            Large
+            </summary>
+        </member>
+        <member name="T:LaavorIconButton.VivacitySpeed">
+            <summary>
+            VivacitySpeed 
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.VivacitySpeed.Slow">
+            <summary>
+            Slow
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.VivacitySpeed.Normal">
+            <summary>
+            Normal
+            </summary>
+        </member>
+        <member name="F:LaavorIconButton.VivacitySpeed.Fast">
+            <summary>
+            Fast
+            </summary>
+        </member>
+    </members>
+</doc>
